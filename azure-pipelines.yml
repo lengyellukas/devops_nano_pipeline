@@ -6,10 +6,10 @@ pool: myAgentPool
 variables:
   azureServiceConnectionId: 'myServiceConnection'
   
-  webAppName: 'flaskmllengyelagain'
+  webAppName: 'devops-nano-pipeline'
 
   # Environment name
-  environmentName: 'devops-nano-pipeline'
+  environmentName: 'flask-ml-service'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
