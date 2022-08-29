@@ -46,4 +46,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://flaskmllengyelagain.azurewebsites.net:$PORT/predict
+     -X POST https://devops-nano-pipeline.azurewebsites.net:$PORT/predict
