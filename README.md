@@ -16,15 +16,14 @@ The project plan expects to deliver the machine learning application in one year
 
 * Architectural Diagram
 
-![](https://file%2B.vscode-resource.vscode-cdn.net/home/lukas/Code/devops_nano_pipeline/screenshots/diagram.png?version%3D1661897095826)
+![](screenshots/diagram.png)
 
 * To run and try the machine learning application, you should have access to Azure Portal and Azure DevOps.
 
 
 * You need to create a project in Azure DevOps and link it with this GitHub repository
 
-![](https://file%2B.vscode-resource.vscode-cdn.net/home/lukas/Code/devops_nano_pipeline/screenshots/azure_devops_project.png?version%3D1661898053495)
-
+![](screenshots/azure_devops_project.png)
 
 * You can deploy the application in Azure Portal using Azure Shell. Simply clone this GitHub repository and run Makefile to install needed dependencies:
 ```bash
