@@ -70,7 +70,11 @@ az webapp log tail
 ![](screenshots/logs_azure.png)
 
 
-* The performance testing of the web application was done by Python program called Locust. The test simulated that 100 users where accessing the base URL and calling the prediction endpoint for 60 seconds with a ramp-up of 10 seconds. The results of performance tests are below.
+* The performance testing of the web application was done by Python program called Locust. The test simulated that 100 users where accessing the base URL and calling the prediction endpoint for 60 seconds with a ramp-up of 10 seconds.
+```bash
+locust -f locustfile.py --headless -u 100 -r 10 -t 60s
+```
+The results of performance tests are below.
 
 ![](screenshots/locustTest.png)
 
