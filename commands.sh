@@ -8,4 +8,4 @@ git add .
 git commit -m "commit message"
 git push
 ./make_predict_azure_app.sh
-locust
+locust -f locustfile.py --headless -u 100 -r 10 -t 60s
